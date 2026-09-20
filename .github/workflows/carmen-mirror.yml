@@ -1,0 +1,45 @@
+name: Carmen mirror
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch Carmen feed
+        env:
+          CARMEN_ICS_URL: ${{ secrets.CARMEN_ICS_URL }}
+        run: |
+          code=$(curl -sS -w '%{http_code}' -o raw.ics "$CARMEN_ICS_URL")
+          echo "HTTP $code"
+          if [ "$code" != "200" ]; then
+            echo "Carmen returned HTTP $code from a GitHub runner."
+            echo "This transport is blocked the same way Cloudflare was."
+            head -c 400 raw.ics || true
+            exit 1
+          fi
+          wc -c raw.ics
+
+      - name: Strip and validate
+        run: python3 strip_ics.py raw.ics carmen.ics
+
+      - name: Commit if changed
+        run: |
+          rm -f raw.ics
+          if [ -z "$(git status --porcelain carmen.ics)" ]; then
+            echo "No change."
+            exit 0
+          fi
+          git config user.name "carmen-mirror"
+          git config user.email "actions@github.com"
+          git add carmen.ics
+          git commit -m "Update Carmen mirror"
+          git push
