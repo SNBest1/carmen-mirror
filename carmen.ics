@@ -412,6 +412,15 @@ SUMMARY:ECA 01 [ENGR 1181.01 AU2026 (4735)]
 URL;VALUE=URI:https://osu.instructure.com/calendar?include_contexts=course_217061&month=09&year=2026#assignment_5580007
 END:VEVENT
 BEGIN:VEVENT
+DTSTAMP:20260922T220100Z
+UID:event-assignment-5706289
+DTSTART;VALUE=DATE;VALUE=DATE:20260930
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:HW#5 (Due Wednesday\, September 30) [MATH 2568 AU2026 (18181)]
+URL;VALUE=URI:https://osu.instructure.com/calendar?include_contexts=course_212824&month=09&year=2026#assignment_5706289
+END:VEVENT
+BEGIN:VEVENT
 DTSTAMP:20260814T183400Z
 UID:event-assignment-5554647
 DTSTART:20261001T110000Z
