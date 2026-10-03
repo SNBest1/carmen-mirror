@@ -6,15 +6,6 @@ METHOD:PUBLISH
 X-WR-CALNAME:Nipun Saini Calendar (Canvas)
 X-WR-CALDESC:Calendar events for the user\, Nipun Saini
 BEGIN:VEVENT
-DTSTAMP:20260903T025600Z
-UID:event-assignment-5485920
-DTSTART;VALUE=DATE;VALUE=DATE:20260902
-CLASS:PUBLIC
-SEQUENCE:0
-SUMMARY:HW#1 (Due Wednesday\, September 2) [MATH 2568 AU2026 (18181)]
-URL;VALUE=URI:https://osu.instructure.com/calendar?include_contexts=course_212824&month=09&year=2026#assignment_5485920
-END:VEVENT
-BEGIN:VEVENT
 DTSTAMP:20260814T183400Z
 UID:event-assignment-5554638
 DTSTART:20260903T120000Z
