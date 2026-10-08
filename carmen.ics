@@ -499,6 +499,15 @@ SUMMARY:Homework #12 [CSE 2221 AU2026 (5168)]
 URL;VALUE=URI:https://osu.instructure.com/calendar?include_contexts=course_216678&month=10&year=2026#assignment_5554652
 END:VEVENT
 BEGIN:VEVENT
+DTSTAMP:20261007T234200Z
+UID:event-assignment-5721484
+DTSTART;VALUE=DATE;VALUE=DATE:20261020
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Project 3 Proposal Due [ART 2555 AU2026 (24522)]
+URL;VALUE=URI:https://osu.instructure.com/calendar?include_contexts=course_212080&month=10&year=2026#assignment_5721484
+END:VEVENT
+BEGIN:VEVENT
 DTSTAMP:20260814T183400Z
 UID:event-assignment-5554653
 DTSTART:20261021T110000Z
