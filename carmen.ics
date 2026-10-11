@@ -6,16 +6,6 @@ METHOD:PUBLISH
 X-WR-CALNAME:Nipun Saini Calendar (Canvas)
 X-WR-CALDESC:Calendar events for the user\, Nipun Saini
 BEGIN:VEVENT
-DTSTAMP:20260914T155300Z
-UID:event-assignment-5691575
-DTSTART:20260911T195000Z
-DTEND:20260911T195000Z
-CLASS:PUBLIC
-SEQUENCE:0
-SUMMARY:LockDown Browser Practice Quiz- Requires Respondus LockDown Browser [ENGR 1181.01 AU2026 (4735)]
-URL;VALUE=URI:https://osu.instructure.com/calendar?include_contexts=course_217061&month=09&year=2026#assignment_5691575
-END:VEVENT
-BEGIN:VEVENT
 DTSTAMP:20260821T173200Z
 UID:event-assignment-5580141
 DTSTART;VALUE=DATE;VALUE=DATE:20260913
