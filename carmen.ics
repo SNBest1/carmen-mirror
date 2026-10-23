@@ -468,6 +468,15 @@ SUMMARY:Midterm Exam #2 [CSE 2221 AU2026 (5168)]
 URL;VALUE=URI:https://osu.instructure.com/calendar?include_contexts=course_216678&month=10&year=2026#assignment_5554655
 END:VEVENT
 BEGIN:VEVENT
+DTSTAMP:20261023T091000Z
+UID:event-assignment-5669189
+DTSTART;VALUE=DATE;VALUE=DATE:20261029
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Homework 4 [STAT 3470.01 AU2026 (25814)]
+URL;VALUE=URI:https://osu.instructure.com/calendar?include_contexts=course_215784&month=10&year=2026#assignment_5669189
+END:VEVENT
+BEGIN:VEVENT
 DTSTAMP:20260814T183400Z
 UID:event-assignment-5554656
 DTSTART:20261030T120000Z
