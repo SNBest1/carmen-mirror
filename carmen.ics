@@ -401,7 +401,7 @@ SUMMARY:Homework 4 [STAT 3470.01 AU2026 (25814)]
 URL;VALUE=URI:https://osu.instructure.com/calendar?include_contexts=course_215784&month=10&year=2026#assignment_5669189
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261029T040400Z
+DTSTAMP:20261029T150200Z
 UID:event-assignment-5564276
 DTSTART;VALUE=DATE;VALUE=DATE:20261029
 CLASS:PUBLIC
@@ -576,13 +576,13 @@ SUMMARY:ECA 08 [ENGR 1181.01 AU2026 (4735)]
 URL;VALUE=URI:https://osu.instructure.com/calendar?include_contexts=course_217061&month=11&year=2026#assignment_5580071
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261014T123300Z
+DTSTAMP:20261029T154900Z
 UID:event-assignment-5580269
 DTSTART:20261113T190500Z
 DTEND:20261113T190500Z
 CLASS:PUBLIC
 SEQUENCE:0
-SUMMARY:Quiz 6 - MATLAB: Files\, Graphing and Repetition [ENGR 1181.01 AU2026 (4735)]
+SUMMARY:Quiz 6 - MATLAB: Files\, Graphing and Repetition- Requires Respondus LockDown Browser [ENGR 1181.01 AU2026 (4735)]
 URL;VALUE=URI:https://osu.instructure.com/calendar?include_contexts=course_217061&month=11&year=2026#assignment_5580269
 END:VEVENT
 BEGIN:VEVENT
@@ -695,7 +695,7 @@ SUMMARY:ECA 10 [ENGR 1181.01 AU2026 (4735)]
 URL;VALUE=URI:https://osu.instructure.com/calendar?include_contexts=course_217061&month=12&year=2026#assignment_5580087
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261023T171700Z
+DTSTAMP:20261029T185100Z
 UID:event-assignment-5580311
 DTSTART:20261202T183500Z
 DTEND:20261202T183500Z
@@ -705,13 +705,13 @@ SUMMARY:SDP 03 Post Lab [ENGR 1181.01 AU2026 (4735)]
 URL;VALUE=URI:https://osu.instructure.com/calendar?include_contexts=course_217061&month=12&year=2026#assignment_5580311
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261005T144100Z
+DTSTAMP:20261029T154900Z
 UID:event-assignment-5580281
 DTSTART:20261202T190500Z
 DTEND:20261202T190500Z
 CLASS:PUBLIC
 SEQUENCE:0
-SUMMARY:Quiz 7 - MATLAB: User Defined Functions and Vectorization [ENGR 1181.01 AU2026 (4735)]
+SUMMARY:Quiz 7 - MATLAB: User Defined Functions and Vectorization- Requires Respondus LockDown Browser [ENGR 1181.01 AU2026 (4735)]
 URL;VALUE=URI:https://osu.instructure.com/calendar?include_contexts=course_217061&month=12&year=2026#assignment_5580281
 END:VEVENT
 BEGIN:VEVENT
@@ -764,15 +764,6 @@ SUMMARY:Project #11 [CSE 2221 AU2026 (5168)]
 URL;VALUE=URI:https://osu.instructure.com/calendar?include_contexts=course_216678&month=12&year=2026#assignment_5554688
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260921T131400Z
-UID:event-assignment-5580017
-DTSTART;VALUE=DATE;VALUE=DATE:20261209
-CLASS:PUBLIC
-SEQUENCE:0
-SUMMARY:ECA 02 [ENGR 1181.01 AU2026 (4735)]
-URL;VALUE=URI:https://osu.instructure.com/calendar?include_contexts=course_217061&month=12&year=2026#assignment_5580017
-END:VEVENT
-BEGIN:VEVENT
 DTSTAMP:20260906T064200Z
 UID:event-assignment-5580287
 DTSTART;VALUE=DATE;VALUE=DATE:20261209
@@ -780,6 +771,15 @@ CLASS:PUBLIC
 SEQUENCE:0
 SUMMARY:SDP - Oral Exam [ENGR 1181.01 AU2026 (4735)]
 URL;VALUE=URI:https://osu.instructure.com/calendar?include_contexts=course_217061&month=12&year=2026#assignment_5580287
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261029T183200Z
+UID:event-assignment-5580017
+DTSTART;VALUE=DATE;VALUE=DATE:20261211
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:ECA 02 [ENGR 1181.01 AU2026 (4735)]
+URL;VALUE=URI:https://osu.instructure.com/calendar?include_contexts=course_217061&month=12&year=2026#assignment_5580017
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20260824T132900Z
