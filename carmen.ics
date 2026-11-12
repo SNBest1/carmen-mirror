@@ -546,6 +546,15 @@ SUMMARY:SDP 02 Post Lab [ENGR 1181.01 AU2026 (4735)]
 URL;VALUE=URI:https://osu.instructure.com/calendar?include_contexts=course_217061&month=11&year=2026#assignment_5580302
 END:VEVENT
 BEGIN:VEVENT
+DTSTAMP:20261112T191300Z
+UID:event-assignment-5749567
+DTSTART;VALUE=DATE;VALUE=DATE:20261120
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:HW#12 (Due Friday\, November 20) [MATH 2568 AU2026 (18181)]
+URL;VALUE=URI:https://osu.instructure.com/calendar?include_contexts=course_212824&month=11&year=2026#assignment_5749567
+END:VEVENT
+BEGIN:VEVENT
 DTSTAMP:20260814T183400Z
 UID:event-assignment-5554686
 DTSTART:20261202T120000Z
